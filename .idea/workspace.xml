@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32c96a3a-b78b-4e98-81d2-4c4f4b80ef5f" name="Default Changelist" comment="" />
+    <list default="true" id="32c96a3a-b78b-4e98-81d2-4c4f4b80ef5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -47,27 +49,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="java" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="100" />
-          <entry key="java" value="1098" />
+          <entry key="java" value="1172" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="100" />
-          <entry key="JAVA" value="1098" />
+          <entry key="JAVA" value="1172" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="76">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,6 +105,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -412,6 +417,7 @@
     <option name="width" value="1400" />
     <option name="height" value="775" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -455,11 +461,6 @@
             <path>
               <item name="TP2" type="b2602c69:ProjectViewProjectNode" />
               <item name="TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TP2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -483,7 +484,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536736441178" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536740059761" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -557,34 +558,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumTest - 2018.09.11 at 15h 35m 30s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.11 at 15h 55m 43s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.11 at 15h 59m 25s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.11 at 16h 00m 52s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.11 at 16h 23m 47s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.11 at 16h 25m 50s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.11 at 16h 40m 11s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.11 at 16h 42m 42s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.11 at 16h 52m 19s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SeleniumTest - 2018.09.11 at 16h 52m 59s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 09h 14m 31s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 10h 03m 11s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 10h 04m 20s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 10h 05m 44s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 10h 08m 22s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 10h 09m 37s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 10h 10m 35s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 10h 11m 50s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 10h 12m 50s.xml">
       <configuration name="SeleniumTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -601,7 +602,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,9 +627,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -636,10 +634,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="76">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -35,10 +35,11 @@ public class SeleniumTest {
         String expected = "French language - Wikipedia";
 
         WebElement barreRecherche = driver.findElement(By.id("lst-ib"));
+        //WebElement barreRecherche = driver.findElement(By.cssSelector(".rc > .r > a"));
         barreRecherche.sendKeys("french");
         barreRecherche.sendKeys(Keys.ENTER);
-
-        WebElement premierResultat = driver.findElement(By.xpath("//*[@id=\"rso\"]/div[2]/div/div/div/div/h3/a "));
+        WebElement premierResultat = driver.findElement(By.cssSelector(".rc > .r > a"));
+        //WebElement premierResultat = driver.findElement(By.xpath("//*[@id=\"rso\"]/div[2]/div/div/div/div/h3/a "));
         Assert.assertEquals(expected,premierResultat.getText());
 
         Thread.sleep(1000);
@@ -55,9 +56,11 @@ public class SeleniumTest {
     public void testClick() throws InterruptedException {
 
         WebElement barreRecherche = driver.findElement(By.id("lst-ib"));
+        //WebElement barreRecherche = driver.findElement(By.cssSelector(".rc > .r > a"));
         barreRecherche.sendKeys("french");
 
         WebElement buttonRecherche = driver.findElement(By.className("lsb"));
+        //WebElement buttonRecherche = driver.findElement(By.cssSelector(".rc > .r > a"));
         buttonRecherche.click();
 
 
