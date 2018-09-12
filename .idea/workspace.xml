@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32c96a3a-b78b-4e98-81d2-4c4f4b80ef5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="32c96a3a-b78b-4e98-81d2-4c4f4b80ef5f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -83,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -92,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1127#1128#0" expanded="true" />
@@ -443,24 +437,6 @@
               <item name="TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TP2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TP2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="TP2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -469,7 +445,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536742930895" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536744051645" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -488,12 +464,12 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.SeleniumTest">
-    <configuration name="SeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="TP2_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
       <option name="METHOD_NAME" value="" />
-      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox " />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -520,13 +496,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SeleniumTest.test" />
       <item itemvalue="JUnit.SeleniumTest" />
+      <item itemvalue="JUnit.SeleniumTest.test" />
       <item itemvalue="JUnit.SeleniumTest.testClick" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SeleniumTest" />
         <item itemvalue="JUnit.SeleniumTest.testClick" />
         <item itemvalue="JUnit.SeleniumTest.test" />
       </list>
@@ -546,15 +521,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumTest - 2018.09.12 at 10h 04m 20s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.12 at 10h 05m 44s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest - 2018.09.12 at 10h 08m 22s.xml">
-      <configuration name="SeleniumTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SeleniumTest - 2018.09.12 at 10h 09m 37s.xml">
       <configuration name="SeleniumTest" configurationId="JUnit" />
     </history-entry>
@@ -574,6 +540,15 @@
       <configuration name="SeleniumTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SeleniumTest - 2018.09.12 at 10h 58m 19s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 11h 02m 17s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 11h 08m 51s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest - 2018.09.12 at 11h 12m 13s.xml">
       <configuration name="SeleniumTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -620,15 +595,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
