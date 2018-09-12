@@ -7,7 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -18,8 +18,26 @@ public class SeleniumTest {
     @Before
     public void setup()
     {
-        driver = new FirefoxDriver();
-        //driver = new ChromeDriver();
+        String browser =System.getProperty("browser");
+        if (browser ==null)
+        {
+            driver = new ChromeDriver();
+        }
+        if (browser.equals("chrome"))
+        {
+          driver = new ChromeDriver();
+        }
+        else if (browser.equals("firefox"))
+        {
+          driver = new FirefoxDriver();
+         }
+        else
+        {
+           driver = new ChromeDriver();
+        }
+        //*/
+        // driver = new FirefoxDriver();
+        // driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get ("https://www.google.com");
     }
@@ -49,7 +67,7 @@ public class SeleniumTest {
 
         // République française - France — Wikipédia
 
-       // driver.close(); fermer juste une fenetre/onglet
+        // driver.close(); fermer juste une fenetre/onglet
     }
 
     @Test
